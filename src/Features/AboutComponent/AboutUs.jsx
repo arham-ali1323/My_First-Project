@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AnimeIllustration from "../../images/animeIllustration.png";
 import BackgroundImage from "../../images/bannerbg.png";
-import Navbar from "../../Components/Navbar";
 
 const AboutUsSection = () => {
   return (
     <section className="aboutus-section" style={{ backgroundImage: `url(${BackgroundImage})` }}>
-        <Navbar/>
       <Container className="text-center text-white py-5">
         <h2 className="aboutus-title">
           Our mission at <span className="aniquest-highlight">Aniquest</span> is

@@ -12,7 +12,6 @@ import {
 } from 'react-bootstrap';
 import logo from "../../images/Navimg.png";
 import { BsArrowUpRight, BsClipboard, BsGear } from 'react-icons/bs';
-import Navbar from "../../Components/Navbar";
 
 const Translate = () => {
   const [maxLength, setMaxLength] = useState(512);
@@ -25,7 +24,6 @@ const Translate = () => {
   return (
     <>
       <section className="Translate">
-        <Navbar />
         {/* Add this style block */}
         <style>{`
           .Translate .navbar a,

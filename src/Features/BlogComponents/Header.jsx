@@ -1,12 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import { FaEnvelopeOpenText } from "react-icons/fa";
-import Navbar from "../../Components/Navbar";
 
 function Header() {
-  return (  <>      
+  return (
     <section className="header-section">
-  <Navbar/>
       <Container>
         <Row className="align-items-center">
           {/* LEFT TEXT BLOCK */}
@@ -60,7 +58,7 @@ function Header() {
           </Col>
         </Row>
       </Container>
-    </section></>
+    </section>
   );
 }
 

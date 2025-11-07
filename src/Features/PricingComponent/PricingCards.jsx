@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Button, Card, Container, Row, Col, Form } from "react-bootstrap";
 import { FaCheck } from "react-icons/fa";
-import Navbar from "../../Components/Navbar";
 
 const FeatureList = () => (
   <ul className="price-checklist list-unstyled">
@@ -48,8 +47,6 @@ function CardExample() {
 
   return (
     <section className="price-section">
-      <Navbar />
-
       <Container>
         <Row className="text-center g-4 my-5">
           <Col>

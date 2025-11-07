@@ -94,17 +94,18 @@ input {
 .nav-link:hover {
   background-color: #ca3fd6;
   color: #ffffff !important;
-  box-shadow: 5px 10px 30px rgb(202, 63, 214);
+  box-shadow: 0 4px 12px rgba(202, 63, 214, 0.4);
   transition: all ease 0.2s;
-  padding: 0;
+  padding: 0px 22px;
 }
 .login {
   text-decoration: none !important;
   background-color: transparent !important;
   font-family: "Poppins";
-  height: 40px;
+  height: 20px;
   line-height: 43px;
   margin: 3px;
+  padding: 0 22px;
   display: flex;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -118,10 +119,9 @@ input {
 .login:hover {
   background-color: #ca3fd6 !important;
   color: #ffffff;
-  box-shadow: 5px 10px 30px rgb(202, 63, 214);
+  box-shadow: 0 4px 12px rgba(202, 63, 214, 0.4);
   transition: all ease 0.2s;
-  border: #ca3fd6;
-  padding: 0 22px;
+  border: 2px solid #ca3fd6;
 }
 
 .nav-btn {
@@ -137,7 +137,7 @@ input {
 .nav-btn:hover {
   background-color: #ca3fd6;
   color: #ffffff;
-  box-shadow: 5px 10px 30px rgb(202, 63, 214);
+  box-shadow: 0 4px 12px rgba(202, 63, 214, 0.4);
   transition: all ease 0.2s;
   border: 2px solid #ca3fd6;
 }

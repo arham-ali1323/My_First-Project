@@ -8,7 +8,7 @@ import logo from "../images/logo.png";
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="Navbar">
+    <Navbar collapseOnSelect expand="lg" className="Navbar" style={{ backgroundColor: 'transparent', position: 'absolute', top: 0, left: 0, right: 0, zIndex: 1000 }}>
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img

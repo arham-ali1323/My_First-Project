@@ -3,14 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import checkIcon from "../../images/check-icon.png";
-import Navbar from "../../Components/Navbar"; // Import your navbar component
 
 function Header() {
   return (
     <section className='main'>
-      {/* Transparent navbar placed before hero content */}
-      <Navbar />
-      
       {/* Hero content with padding to account for navbar */}
       <Container className="hero-container" style={{ paddingTop: '100px' }}>
         <Row>
@@ -28,7 +24,7 @@ function Header() {
           </Col>
 
           {/* Checklist column */}
-          <Col xs={12} md={4}>   
+          <Col xs={12} md={4}>
             <div className="header-checklist">
               <div className="header-checklist-item">
                 <img src={checkIcon} alt="Check" />

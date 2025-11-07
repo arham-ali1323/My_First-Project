@@ -8,10 +8,13 @@ import SignIn from "./Pages/SignIn"; // <-- This page handles auth forms
 import Translate from "./Pages/Translate";
 import Layout from "./Components/Layout";
 import SignupForm from "./Features/SignInComponent/SignupForm"; // optional direct route
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,6 +26,7 @@ function App() {
           <Route path="/signupForm" element={<SignupForm />} />
         </Routes>
       </Layout>
+      <Footer />
     </Router>
   );
 }
