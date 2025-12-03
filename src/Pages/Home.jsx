@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Features/HomeComponents/Header';
 import Copywriter from '../Features/HomeComponents/Copywriter';
 import Features from '../Features/HomeComponents/Features';

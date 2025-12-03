@@ -7,7 +7,7 @@ const AboutUsSection = () => {
   return (
     <section className="aboutus-section" style={{ backgroundImage: `url(${BackgroundImage})` }}>
       <Container className="text-center text-white py-5">
-        <h2 className="aboutus-title">
+        <h2 className="aboutus-title mt-5">
           Our mission at <span className="aniquest-highlight">Aniquest</span> is
           to help users
           <br /> create their own anime stories
