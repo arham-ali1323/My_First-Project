@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from '../Features/AboutComponent/AboutUs';
 import OurTeam from '../Features/AboutComponent/OurTeam';
 import OurValuesSection from '../Features/AboutComponent/OurValuesSection';

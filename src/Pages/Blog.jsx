@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../Features/BlogComponents/Header';
 import ArticlesSection from '../Features/BlogComponents/ArticlesSection';
 // import Navbar from '../Features/BlogComp/Navbar';
